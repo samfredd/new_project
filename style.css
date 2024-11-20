@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    align-content: flex-start;
+
+    width: 100%;
+}
+
+body {
+    display: block;
+    padding: 40px, 0, 40px, 0;
+    align-content: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.menu-item {
+    padding-right: 10px;
+}
+
+.action-button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    height: 38px;
+}
+
+.hero-button {
+    display: flexbox;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 40px;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    width: 500px;
+    margin-left: 80px;
+    height: 80px;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin-left: 120px;
+
+}
+
+.hero-button {
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    width: 200px;
+    height: 38px;
+    margin-left: 230px;
+    box-shadow: 20px;
+}
